@@ -27,13 +27,12 @@ Features draggable & resizable multi-tasking windows, an interactive taskbar wit
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack & Multi-Language Architecture
 
-- **Framework**: React 18 + Vite 6
-- **Language**: TypeScript 5
-- **Styling**: Tailwind CSS 3 + Lucide Icons
-- **State Management**: Zustand
-- **Routing**: React Router DOM 7
+- **Frontend Web OS**: React 18 + Vite 6, TypeScript 5, Tailwind CSS 3, Zustand, Lucide Icons
+- **Python System Daemon (`backend-python/`)**: Python 3.12, FastAPI, Uvicorn, Asynchronous REST API, System Telemetry, Sandboxed Terminal Shell & VFS
+- **Kernel Simulation Core (`core-cpp/`)**: Modern C++20, CMake, Preemptive Round-Robin Process Scheduler, LRU Page Fault Virtual Memory Manager
+
 
 ---
 
