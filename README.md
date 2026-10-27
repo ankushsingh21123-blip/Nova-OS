@@ -1,56 +1,60 @@
-# Web OS 📀
+# Nova-OS 🪟⚡
 
-A Windows‑style desktop UI built with React, Vite, TypeScript, and Tailwind CSS. It includes draggable, resizable windows, a taskbar with a Start menu and clock, and several built‑in apps (File Explorer, Notepad, Calculator, Settings).
+**Nova-OS** is a responsive, Windows-inspired desktop operating system running directly inside the modern web browser. Engineered with React 18, Vite 6, TypeScript 5, Zustand state management, and Tailwind CSS.
 
-## Tech Stack
+Features draggable & resizable multi-tasking windows, an interactive taskbar with dynamic Start menu, live system tray clock, and fully functional built-in desktop applications.
 
-- React 18 + Vite 6
-- TypeScript 5
-- Tailwind CSS 3
-- ESLint (flat config) + TypeScript ESLint
-- Vite plugins: `@vitejs/plugin-react`, `vite-tsconfig-paths`, `vite-plugin-trae-solo-badge`
+---
 
-## Features
+## 🚀 Key Features
 
-- Desktop icons launch apps via `Desktop` (`src/components/Desktop.tsx:8`)
-- Window management with focus, minimize, maximize, drag, and resize (`src/components/WindowManager.tsx:49`, `src/components/DraggableWindow.tsx:32`)
-- Taskbar with Start menu and system tray clock (`src/components/Taskbar.tsx:49`)
-- Built‑in apps:
-  - File Explorer (`src/components/apps/FileExplorer.tsx:25`)
-  - Notepad (`src/components/apps/Notepad.tsx:8`)
-  - Calculator (`src/components/apps/Calculator.tsx:8`)
-  - Settings (`src/components/apps/Settings.tsx:8`)
-- Dark mode support (`tailwind.config.js:4`)
+- 🖥️ **Desktop Workspace**: Launch applications seamlessly with draggable, organized desktop icons.
+- 🪟 **Window Management**: Complete focus hierarchy, minimize, maximize, snap, drag, and resize controls.
+- ⏱️ **Taskbar & Start Menu**: Interactive Start menu launcher, active application indicators, and live system tray clock.
+- 📦 **Built-In Productivity Apps**:
+  - 📁 **File Explorer**: Browse file systems, directory structures, and file details.
+  - 📝 **Notepad**: Text editing workspace with live local state.
+  - 🧮 **Calculator**: Standard calculator supporting mathematical operations.
+  - ⚙️ **System Settings**: Control personalization, appearance, and desktop environment options.
+- 🌙 **Modern Design & Theming**: Polished glassmorphism effects, fluid animations, and dark mode support.
 
-## Quick Start
+---
 
-- Prerequisites: Node.js 18+
-- Install dependencies: `npm install`
-- Start development server: `npm run dev`
-- Open in browser: `http://localhost:5173` (default Vite port)
+## 🛠️ Tech Stack
 
-## Scripts
+- **Framework**: React 18 + Vite 6
+- **Language**: TypeScript 5
+- **Styling**: Tailwind CSS 3 + Lucide Icons
+- **State Management**: Zustand
+- **Routing**: React Router DOM 7
 
-- `npm run dev` — start Vite dev server
-- `npm run build` — type‑check and build production bundle
-- `npm run preview` — preview the production build locally
-- `npm run lint` — run ESLint across the project
-- `npm run check` — TypeScript project references build‑mode typecheck
+---
 
-## Project Structure
+## ⚡ Quick Start
 
-- `src/` — application source
-  - `components/` — core UI (Desktop, Taskbar, WindowManager, DraggableWindow)
-  - `components/apps/` — built‑in apps (FileExplorer, Notepad, Calculator, Settings)
-  - `App.tsx` — app orchestration and window state (`src/App.tsx:34`)
-  - `main.tsx` — React root
-  - `index.css` — global styles (Tailwind)
-- `index.html` — app entry
-- `vite.config.ts` — Vite configuration (`vite.config.ts:7`)
-- `tailwind.config.js` — Tailwind configuration
-- `postcss.config.js` — PostCSS plugins
+### 1. Clone the repository
+```bash
+git clone https://github.com/ankushsingh21123-blip/Nova-OS.git
+cd Nova-OS
+```
 
-## Notes
+### 2. Install dependencies
+```bash
+npm install
+```
 
-- Production builds hide sourcemaps (`vite.config.ts:8`)
-- Path aliases are resolved from `tsconfig` (`vite-tsconfig-paths`)
+### 3. Start development server
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+## 👨‍💻 Author
+
+**Ankush Singh**  
+- GitHub: [@ankushsingh21123-blip](https://github.com/ankushsingh21123-blip)  
+- LinkedIn: [Ankush Singh](https://www.linkedin.com/in/ankush-singh-8b43b3388/)  
+- Email: ankushsingh21123@gmail.com

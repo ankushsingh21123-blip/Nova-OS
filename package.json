@@ -1,7 +1,9 @@
 {
-  "name": "trae-project",
+  "name": "nova-os",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "A modern Windows-inspired web desktop operating system built with React, Vite, TypeScript, and Tailwind CSS.",
+  "author": "Ankush Singh <ankushsingh21123@gmail.com>",
   "type": "module",
   "scripts": {
     "dev": "vite",
