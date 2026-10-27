@@ -2,6 +2,13 @@
 
 **Nova-OS** is a responsive, Windows-inspired desktop operating system running directly inside the modern web browser. Engineered with React 18, Vite 6, TypeScript 5, Zustand state management, and Tailwind CSS.
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-nova--webos.netlify.app-00C7B7?style=for-the-badge&logo=netlify)](https://nova-webos.netlify.app)
+[![GitHub](https://img.shields.io/badge/GitHub-ankushsingh21123--blip%2FNova--OS-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ankushsingh21123-blip/Nova-OS)
+
+🌐 **Live Website:** [nova-webos.netlify.app](https://nova-webos.netlify.app)
+
+<br/>
+
 Features draggable & resizable multi-tasking windows, an interactive taskbar with dynamic Start menu, live system tray clock, and fully functional built-in desktop applications.
 
 ---
